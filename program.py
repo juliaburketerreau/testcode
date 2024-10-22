@@ -35,6 +35,16 @@ if pizza == "Large":
         fintot = float(tax + subtotal)
         print("Your final cost is")
         print("$", fintot)
+    if toppings == "4":
+        subtotal = float(large + 3.35)
+        print("Your subtotal is")
+        print("$", subtotal)
+        tax = float(0.13 * subtotal)
+        print("Your tax is")
+        print("$", tax)
+        fintot = float(tax + subtotal)
+        print("Your final cost is")
+        print("$", fintot)
 
 
 
