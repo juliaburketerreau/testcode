@@ -45,6 +45,49 @@ if pizza == "Large":
         fintot = float(tax + subtotal)
         print("Your final cost is")
         print("$", fintot)
-
-
-
+    
+if pizza == "Extra Large":
+    print("That costs $10")
+    extralarge = 10
+    print("How many toppings?")
+    toppings = input()
+    if toppings == "1":
+        subtotal = float(extralarge + 1.00)
+        print("Your subtotal is")
+        print("$", subtotal)
+        tax = float(0.13 * subtotal)
+        print("Your tax is")
+        print("$", tax)
+        fintot = float(tax + subtotal)
+        print("Your final cost is")
+        print("$", fintot)
+    if toppings == "2":
+        subtotal = float(extralarge + 1.75)
+        print("Your subtotal is")
+        print("$", subtotal)
+        tax = float(0.13 * subtotal)
+        print("Your tax is")
+        print("$", tax)
+        fintot = float(tax + subtotal)
+        print("Your final cost is")
+        print("$", fintot)
+    if toppings == "3":
+        subtotal = float(extralarge + 2.50)
+        print("Your subtotal is")
+        print("$", subtotal)
+        tax = float(0.13 * subtotal)
+        print("Your tax is")
+        print("$", tax)
+        fintot = float(tax + subtotal)
+        print("Your final cost is")
+        print("$", fintot)
+    if toppings == "4":
+        subtotal = float(extralarge + 3.35)
+        print("Your subtotal is")
+        print("$", subtotal)
+        tax = float(0.13 * subtotal)
+        print("Your tax is")
+        print("$", tax)
+        fintot = float(tax + subtotal)
+        print("Your final cost is")
+        print("$", fintot)
