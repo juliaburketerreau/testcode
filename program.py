@@ -67,6 +67,20 @@ if pizza == "Extra Large":
     extralarge = 10
     print("How many toppings?")
     toppings = input()
+    if toppings == "0":
+        subtotal = float(extralarge)
+        import math
+        print("Your subtotal is")
+        print("$", subtotal)
+        tax = float(extralarge * 0.13)
+        tax = math.floor(tax * 100) / 100
+        print("Your tax is")
+        print("$", tax)
+        fintot = float(tax + subtotal)
+        fintot = math.floor(fintot * 100) / 100
+        print("Your final cost is")
+        print("$", fintot)
+
     if toppings == "1":
         subtotal = float(extralarge + 1.00)
         import math
